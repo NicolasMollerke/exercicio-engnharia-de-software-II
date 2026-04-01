@@ -23,6 +23,8 @@ while(true){
         case 1:
             acelerar(carro);
             break;
+        case 2:
+            frear(carro);
     
         default:
             break;
@@ -44,4 +46,8 @@ function criaVeiculo(): Veiculo{
     veiculo.potencia = +teclado('Potência: ');
     veiculo.numeroMarchas = +teclado('Número de marchas: ');
     return veiculo;
+}
+
+function frear(veiculo: Veiculo): void{
+    
 }
