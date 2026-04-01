@@ -25,7 +25,10 @@ while(true){
             break;
         case 2:
             frear(carro);
-    
+            break;
+        case 3:
+            subirMarcha(carro);
+            break;
         default:
             break;
     }
@@ -49,5 +52,9 @@ function criaVeiculo(): Veiculo{
 }
 
 function frear(veiculo: Veiculo): void{
-    
+
+}
+
+function subirMarcha(veiculo: Veiculo): void{
+
 }
