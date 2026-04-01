@@ -29,6 +29,9 @@ while(true){
         case 3:
             subirMarcha(carro);
             break;
+        case 4:
+            descerMarcha(carro);
+            break;
         default:
             break;
     }
@@ -56,5 +59,9 @@ function frear(veiculo: Veiculo): void{
 }
 
 function subirMarcha(veiculo: Veiculo): void{
+
+}
+
+function descerMarcha(veiculo: Veiculo): void{
 
 }
